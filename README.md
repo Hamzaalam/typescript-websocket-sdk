@@ -4,11 +4,16 @@
 
 `apps` ---> contains examples to utilize the sdk
 
-
-To run packages first build it using below command at the root, This will generate the both packages build files!
+Install the dependencies at the root of project
 
 ```
-npm run compile -ws
+npm install
+```
+
+To run packages, comiple it using below command at the root, This will generate the both packages build files!
+
+```
+npm run build -ws
 ```
 
 
@@ -40,5 +45,6 @@ example screenshot!
 
 
 Note: no bundler has been used to bundle the packages native tsc used to compile the packages! 
+except in the `browser-example` `parcel` has been used build it.
 
 
