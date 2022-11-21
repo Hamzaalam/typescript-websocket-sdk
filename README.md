@@ -34,15 +34,14 @@ To to run the `nodejs-example` app.
 cd apps/nodejs-example
 npm run start
 ```
+example screenshot!
+
+![Screenshot from 2022-11-21 13-09-21](https://user-images.githubusercontent.com/43663027/203050390-9fcce71c-2452-4f47-aa46-d43cd66a4679.png)
 
 To Test the packages in one shot!
 ```
 npm run test
 ```
-example screenshot!
-
-![Screenshot from 2022-11-21 13-09-21](https://user-images.githubusercontent.com/43663027/203050390-9fcce71c-2452-4f47-aa46-d43cd66a4679.png)
-
 
 Note: no bundler has been used to bundle the packages native tsc used to compile the packages! 
 except in the `browser-example` `parcel` has been used build it.
